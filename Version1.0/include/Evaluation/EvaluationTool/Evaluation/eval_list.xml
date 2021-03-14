@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<VideoSet name="Trecvid" root_dir=".\" rst_dir="eval\">
+	<Video sub_dir="" video="InputVideo\%s.avi" gt="GT\%s.gt.xml" trk="%s.tracking.xml" match_out="%s.eva_out.txt" video_out="OutputVideo\%s.out.avi">
+		<VideoId>LGW_20071123_E1_CAM1.03</VideoId>
+		<VideoId>LGW_20071123_E1_CAM3.03</VideoId>
+	</Video>
+</VideoSet>

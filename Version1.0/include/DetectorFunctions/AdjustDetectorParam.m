@@ -1,0 +1,110 @@
+function [DetectorObj,ExtraOpts,ResultsOpts]=AdjustDetectorParam(DetectorObj,ResultsOpts)
+switch DetectorObj.DetectorName
+    case 'BBGTdetections'
+        switch DatasetInfo.Sequence
+            case 'S2_L1'
+                DetectorObj.ScaleFactor               =1;
+                DetectorObj.FastFlag                  =1;
+                DetectorObj.DetectorThreshold         =0;
+                DetectorObj.ResizeFlag                =1; 
+                DetectorObj.LoadPrecomputedDetections =1;
+                DetectorObj.ShortName                 =DetectorObj.DetectorName;  
+                DetectorObj.FilterDetectionsLessThanTh=0;
+                DetectorObj.ThresholdDetector         =0;
+                DetectorObj.ScoreThre                 =0;        
+                DetectorObj.FilterDetectionsGreaterThanSize=0;
+                DetectorObj.BBFileName                ='PETS2009-S2L1.xlsx';
+                DetectorObj.PretrainedDollar.prm=struct('imgNm',0,'modelNm','ChnFtrs01','resize',1,'fast',1,'thr', 5);
+        end
+    case 'DollarDetector'
+        DetectorObj.ScaleFactor                =3;
+        DetectorObj.FastFlag                   =1;
+        DetectorObj.DetectorThreshold          =1;
+        DetectorObj.ResizeFlag                 =1; 
+        DetectorObj.LoadPrecomputedDetections  =0;
+        DetectorObj.ScoreThre                  =0;  
+        DetectorObj.FilterDetectionsLessThanTh =1;
+        DetectorObj.ThresholdDetector          =5;        
+        DetectorObj.FilterDetectionsGreaterThanSize=0;
+        DetectorObj.BBFileName=strcat('DatasetName_',DetectorObj.DetectorName,num2str(DetectorObj.FastFlag),num2str(DetectorObj.DetectorThreshold),num2str(DetectorObj.ResizeFlag),num2str(DetectorObj.ScaleFactor),'.mat');        
+        DetectorObj.PretrainedDollar.prm=struct('imgNm',0,'modelNm','ChnFtrs01','resize',DetectorObj.ResizeFlag,'fast',DetectorObj.FastFlag,'thr', DetectorObj.ThresholdDetector);
+    case 'BBdolor'
+        ExtraOpts.FilterDetectionMask           =0;
+        ExtraOpts.MaskFile                      =0;
+        ExtraOpts.MaskImage                     =0;
+        DetectorObj.FilterDetectionsGreaterImage=1;
+        DetectorObj.FilterDetectionMask         =0;
+        DetectorObj.MaskImage                   =ExtraOpts.MaskImage;
+        DetectorObj.MaxWidth                    =64;
+        DetectorObj.MaxHight                    =64;
+        DetectorObj.ShiftTime                   =1;
+        DetectorObj.UseOpticalFlow              =0;
+        DetectorObj.OF.bFineScale               =1;
+        DetectorObj.OF.tIntegration             =0;
+        DetectorObj.OF.flowRes                  =[25 25];
+        DetectorObj.ScaleFactor                 =1.5;
+        DetectorObj.FastFlag                    =1;
+        DetectorObj.DetectorThreshold           =5;
+        DetectorObj.ResizeFlag                  =1;
+        DetectorObj.LoadPrecomputedDetections   =1;
+        DetectorObj.FilterDetectionsLessThanTh  =1;
+        DetectorObj.ThresholdDetector           =40.1907;
+        DetectorObj.ScoreThre                   =40.1907;
+        DetectorObj.BBFileName                  =strcat('DatasetName_',DetectorObj.DetectorName,num2str(DetectorObj.FastFlag),num2str(DetectorObj.DetectorThreshold),num2str(DetectorObj.ResizeFlag),num2str(DetectorObj.ScaleFactor),'.mat');
+        DetectorObj.PretrainedDollar.prm        =struct('imgNm',0,'modelNm','ChnFtrs01','resize',1,'fast',1,'thr', 5);
+        DetectorObj.FilterDetectionsGreaterThanSize=0;
+        ResultsOpts.ChangeWidthHight            =0;
+        ResultsOpts.ChangeW                     =1;
+        ResultsOpts.ChangeH                     =1;
+        ResultsOpts.UseROI                      =false;
+    case 'BB_BoYang'
+        ExtraOpts.FilterDetectionMask           =0;
+        ExtraOpts.MaskFile                      =0;
+        ExtraOpts.MaskImage                     =0;
+        DetectorObj.ScaleFactor                 =1;
+        DetectorObj.FastFlag                    =1;
+        DetectorObj.DetectorThreshold           =0;
+        DetectorObj.ResizeFlag                  =0;
+        DetectorObj.LoadPrecomputedDetections   =1;
+        DetectorObj.FilterDetectionsLessThanTh  =0;
+        DetectorObj.ThresholdDetector           =0;
+        DetectorObj.BBFileName                  ='Detections_yangboCVPR2012.xlsx';
+        DetectorObj.ScoreThre                   =0;
+        DetectorObj.ArrangeAnnotation           =-2;
+        DetectorObj.ShiftV                      =-1;
+        DetectorObj.FilterDetectionsGreaterThanSize=0;
+        DetectorObj.FilterDetectionsGeo         =2;
+        DetectorObj.PretrainedDollar.prm        =struct('imgNm',0,'modelNm','ChnFtrs01','resize',1,'fast',1,'thr', 5);
+    case 'BB_ACFwacv2015'
+        DetectorObj.FilterDetectionsGreaterImage=1;
+        DetectorObj.FilterDetectionMask         =0;
+        DetectorObj.MaskImage                   =ExtraOpts.MaskImage;
+        DetectorObj.OverlapThreshold            =0.8;
+        DetectorObj.ScaleFactor                 =1;
+        DetectorObj.FastFlag                    =1;
+        DetectorObj.DetectorThreshold           =30;
+        DetectorObj.ResizeFlag                  =0;
+        DetectorObj.LoadPrecomputedDetections   =1;
+        DetectorObj.FilterDetectionsLessThanTh  =1;
+        DetectorObj.ThresholdDetector           =30;
+        DetectorObj.BBFileName                  ='detFile.xlsx';
+        DetectorObj.ScoreThre                   =30;
+        DetectorObj.PretrainedDollar.prm=struct('imgNm',0,'modelNm','ChnFtrs01','resize',1,'fast',1,'thr', 5);
+        DetectorObj.ArrangeAnnotation           =-2;
+        DetectorObj.ShiftV                      =-1;
+        DetectorObj.FilterDetectionsGreaterThanSize=0;
+        ResultsOpts.ChangeWidthHight            =0;
+        ResultsOpts.ChangeW                     =1;
+        ResultsOpts.ChangeH                     =1;
+        ResultsOpts.UseROI                      =false;
+        DetectorObj.MaxWidth                    =64;
+        DetectorObj.MaxHight                    =64;
+        DetectorObj.ShiftTime                   =1;
+        DetectorObj.UseOpticalFlow              =0;
+        DetectorObj.OF.bFineScale               =1;
+        DetectorObj.OF.tIntegration             =0;
+        DetectorObj.OF.flowRes                  =[25 25];        
+end
+DetectorObj.ScaleDetections                      =0;
+DetectorObj.ScaleBBOpt.ScaleFactorW              =1;
+DetectorObj.ScaleBBOpt.ScaleFactorH              =3;

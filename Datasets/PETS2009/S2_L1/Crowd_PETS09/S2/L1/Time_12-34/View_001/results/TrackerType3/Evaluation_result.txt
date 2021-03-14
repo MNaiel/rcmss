@@ -1,0 +1,3 @@
+18-Oct-2016 18:00:23:
+ Rcll  Prcn   FAR| GT  MT  PT  ML|  FP   FN IDs  FM|  MOTA  MOTP MOTAL 
+ 90.4  91.5  0.43|  6   5   1   0|  43   49   5   5|  80.9  80.3  81.8 

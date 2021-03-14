@@ -1,0 +1,3 @@
+function ConvertGTandDetectionsBoYangFormat(gt,Finalresult, DatasetInfo)
+gt(DatasetInfo.NewStartFrame:DatasetInfo.EndValidFrame),Finalresult(DatasetInfo.NewStartFrame:DatasetInfo.EndValidFrame)
+end

@@ -1,0 +1,343 @@
+
+ XMLFileNameGT = .\GT\LGW_20071123_E1_CAM1.03.avi.gt.xml
+ XMLFileNameSO = .\eval\LGW_20071123_E1_CAM1.03.avi.tracking.xml
+ InputVideoName = .\InputVideo\LGW_20071123_E1_CAM1.03.avi
+ WriteVidFilename = .\OutputVideo\LGW_20071123_E1_CAM1.03.avi.out.avi
+
+ --- TRUE MATCHES AND MISSED DETECTIONS OF GT----
+
+
+
+ GTObjectID = 0
+ MappedtoObjID = 2  Tcount = 154 FragId = 0   ObjID: 2 StartFrame: 0 StopFrame: 153
+
+ GTObjectID = 1
+ MappedtoObjID = 3  Tcount = 125 FragId = 0   ObjID: 3 StartFrame: 0 StopFrame: 124
+ MappedtoObjID = -1  Fcount = 49 FragId = -1   ObjID: -1 StartFrame: 125 StopFrame: 173
+
+ GTObjectID = 2
+ MappedtoObjID = 0  Tcount = 33 FragId = 0   ObjID: 0 StartFrame: 0 StopFrame: 32
+
+ GTObjectID = 3
+ MappedtoObjID = 18  Tcount = 1772 FragId = 0   ObjID: 18 StartFrame: 0 StopFrame: 1771
+
+ GTObjectID = 4
+ MappedtoObjID = 1  Tcount = 37 FragId = 0   ObjID: 1 StartFrame: 0 StopFrame: 36
+ MappedtoObjID = -1  Fcount = 83 FragId = -1   ObjID: -1 StartFrame: 37 StopFrame: 119
+
+ GTObjectID = 5
+ MappedtoObjID = 4  Tcount = 178 FragId = 0   ObjID: 4 StartFrame: 1 StopFrame: 178
+
+ GTObjectID = 6
+ MappedtoObjID = 5  Tcount = 165 FragId = 0   ObjID: 5 StartFrame: 125 StopFrame: 289
+
+ GTObjectID = 7
+ MappedtoObjID = 6  Tcount = 152 FragId = 0   ObjID: 6 StartFrame: 151 StopFrame: 302
+
+ GTObjectID = 8
+ MappedtoObjID = 7  Tcount = 212 FragId = 0   ObjID: 7 StartFrame: 419 StopFrame: 630
+
+ GTObjectID = 9
+ MappedtoObjID = 8  Tcount = 170 FragId = 0   ObjID: 8 StartFrame: 484 StopFrame: 653
+
+ GTObjectID = 18
+ MappedtoObjID = 9  Tcount = 451 FragId = 0   ObjID: 9 StartFrame: 494 StopFrame: 944
+ MappedtoObjID = 17  Tcount = 573 FragId = 1   ObjID: 17 StartFrame: 945 StopFrame: 1517
+ MappedtoObjID = -1  Fcount = 125 FragId = -1   ObjID: -1 StartFrame: 1518 StopFrame: 1642
+
+ GTObjectID = 10
+ MappedtoObjID = 10  Tcount = 147 FragId = 0   ObjID: 10 StartFrame: 750 StopFrame: 896
+
+ GTObjectID = 11
+ MappedtoObjID = 11  Tcount = 210 FragId = 0   ObjID: 11 StartFrame: 824 StopFrame: 1033
+ MappedtoObjID = -1  Fcount = 12 FragId = -1   ObjID: -1 StartFrame: 1034 StopFrame: 1045
+
+ GTObjectID = 12
+ MappedtoObjID = -1  Fcount = 10 FragId = -1   ObjID: -1 StartFrame: 866 StopFrame: 875
+ MappedtoObjID = 12  Tcount = 203 FragId = 0   ObjID: 12 StartFrame: 876 StopFrame: 1078
+
+ GTObjectID = 14
+ MappedtoObjID = 14  Tcount = 210 FragId = 0   ObjID: 14 StartFrame: 976 StopFrame: 1185
+
+ GTObjectID = 15
+ MappedtoObjID = 15  Tcount = 229 FragId = 0   ObjID: 15 StartFrame: 1030 StopFrame: 1258
+
+ GTObjectID = 16
+ MappedtoObjID = -1  Fcount = 20 FragId = -1   ObjID: -1 StartFrame: 1045 StopFrame: 1064
+ MappedtoObjID = 13  Tcount = 28 FragId = 0   ObjID: 13 StartFrame: 1065 StopFrame: 1092
+ MappedtoObjID = -1  Fcount = 69 FragId = -1   ObjID: -1 StartFrame: 1093 StopFrame: 1161
+ MappedtoObjID = 16  Tcount = 53 FragId = 1   ObjID: 16 StartFrame: 1162 StopFrame: 1214
+ MappedtoObjID = -1  Fcount = 1 FragId = -1   ObjID: -1 StartFrame: 1215 StopFrame: 1215
+
+ GTObjectID = 17
+ MappedtoObjID = 19  Tcount = 782 FragId = 0   ObjID: 19 StartFrame: 1311 StopFrame: 2092
+
+ GTObjectID = 19
+ MappedtoObjID = 20  Tcount = 141 FragId = 0   ObjID: 20 StartFrame: 1918 StopFrame: 2058
+
+ GTObjectID = 20
+ MappedtoObjID = -1  Fcount = 15 FragId = -1   ObjID: -1 StartFrame: 2353 StopFrame: 2367
+ MappedtoObjID = 21  Tcount = 151 FragId = 0   ObjID: 21 StartFrame: 2368 StopFrame: 2518
+
+ GTObjectID = 21
+ MappedtoObjID = 23  Tcount = 271 FragId = 0   ObjID: 23 StartFrame: 2607 StopFrame: 2877
+
+ GTObjectID = 22
+ MappedtoObjID = 22  Tcount = 133 FragId = 0   ObjID: 22 StartFrame: 2645 StopFrame: 2777
+ MappedtoObjID = -1  Fcount = 19 FragId = -1   ObjID: -1 StartFrame: 2778 StopFrame: 2796
+
+ GTObjectID = 23
+ MappedtoObjID = 24  Tcount = 141 FragId = 0   ObjID: 24 StartFrame: 4061 StopFrame: 4201
+
+ Total Matches = 6721  Total Miss Detects = 403
+
+ --- WRONG DETECTIONS OF SO----
+
+
+
+ SOObjectID = 0
+ MappedtoObjID = 2  Tcount = 33 FragId = 0   ObjID: 2 StartFrame: 0 StopFrame: 32
+
+ SOObjectID = 1
+ MappedtoObjID = 4  Tcount = 37 FragId = 0   ObjID: 4 StartFrame: 0 StopFrame: 36
+
+ SOObjectID = 2
+ MappedtoObjID = 0  Tcount = 154 FragId = 0   ObjID: 0 StartFrame: 0 StopFrame: 153
+
+ SOObjectID = 3
+ MappedtoObjID = 1  Tcount = 125 FragId = 0   ObjID: 1 StartFrame: 0 StopFrame: 124
+
+ SOObjectID = 18
+ MappedtoObjID = 3  Tcount = 1772 FragId = 0   ObjID: 3 StartFrame: 0 StopFrame: 1771
+ MappedtoObjID = -1  Fcount = 5  FragId = -1  
+
+ SOObjectID = 4
+ MappedtoObjID = 5  Tcount = 178 FragId = 0   ObjID: 5 StartFrame: 1 StopFrame: 178
+
+ SOObjectID = 5
+ MappedtoObjID = 6  Tcount = 165 FragId = 0   ObjID: 6 StartFrame: 125 StopFrame: 289
+
+ SOObjectID = 6
+ MappedtoObjID = 7  Tcount = 152 FragId = 0   ObjID: 7 StartFrame: 151 StopFrame: 302
+
+ SOObjectID = 7
+ MappedtoObjID = 8  Tcount = 212 FragId = 0   ObjID: 8 StartFrame: 419 StopFrame: 630
+
+ SOObjectID = 8
+ MappedtoObjID = -1  Fcount = 2  FragId = -1  
+ MappedtoObjID = 9  Tcount = 170 FragId = 0   ObjID: 9 StartFrame: 484 StopFrame: 653
+
+ SOObjectID = 9
+ MappedtoObjID = 18  Tcount = 451 FragId = 0   ObjID: 18 StartFrame: 494 StopFrame: 944
+
+ SOObjectID = 10
+ MappedtoObjID = -1  Fcount = 8  FragId = -1  
+ MappedtoObjID = 10  Tcount = 147 FragId = 0   ObjID: 10 StartFrame: 750 StopFrame: 896
+ MappedtoObjID = -1  Fcount = 6  FragId = -1  
+
+ SOObjectID = 11
+ MappedtoObjID = 11  Tcount = 210 FragId = 0   ObjID: 11 StartFrame: 824 StopFrame: 1033
+
+ SOObjectID = 12
+ MappedtoObjID = 12  Tcount = 203 FragId = 0   ObjID: 12 StartFrame: 876 StopFrame: 1078
+
+ SOObjectID = 17
+ MappedtoObjID = 18  Tcount = 573 FragId = 0   ObjID: 18 StartFrame: 945 StopFrame: 1517
+
+ SOObjectID = 14
+ MappedtoObjID = -1  Fcount = 8  FragId = -1  
+ MappedtoObjID = 14  Tcount = 210 FragId = 0   ObjID: 14 StartFrame: 976 StopFrame: 1185
+
+ SOObjectID = 15
+ MappedtoObjID = 15  Tcount = 229 FragId = 0   ObjID: 15 StartFrame: 1030 StopFrame: 1258
+
+ SOObjectID = 13
+ MappedtoObjID = 16  Tcount = 28 FragId = 0   ObjID: 16 StartFrame: 1065 StopFrame: 1092
+
+ SOObjectID = 16
+ MappedtoObjID = 16  Tcount = 53 FragId = 0   ObjID: 16 StartFrame: 1162 StopFrame: 1214
+
+ SOObjectID = 19
+ MappedtoObjID = 17  Tcount = 782 FragId = 0   ObjID: 17 StartFrame: 1311 StopFrame: 2092
+ MappedtoObjID = -1  Fcount = 4  FragId = -1  
+
+ SOObjectID = 20
+ MappedtoObjID = 19  Tcount = 141 FragId = 0   ObjID: 19 StartFrame: 1918 StopFrame: 2058
+
+ SOObjectID = 21
+ MappedtoObjID = 20  Tcount = 151 FragId = 0   ObjID: 20 StartFrame: 2368 StopFrame: 2518
+
+ SOObjectID = 23
+ MappedtoObjID = 21  Tcount = 271 FragId = 0   ObjID: 21 StartFrame: 2607 StopFrame: 2877
+
+ SOObjectID = 22
+ MappedtoObjID = 22  Tcount = 133 FragId = 0   ObjID: 22 StartFrame: 2645 StopFrame: 2777
+
+ SOObjectID = 24
+ MappedtoObjID = 23  Tcount = 141 FragId = 0   ObjID: 23 StartFrame: 4061 StopFrame: 4201
+ MappedtoObjID = -1  Fcount = 6  FragId = -1  
+
+ Total Matches = 6721  Total Wrong Detects = 39
+
+ --- MISC GT Statistics----
+
+
+
+ GT ObjectID: 0  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 1  
+ MaxDetectionRatio: 0.7184  RatioTotalDetects: 0.7184 
+
+ GT ObjectID: 2  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 3  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 4  
+ MaxDetectionRatio: 0.3083  RatioTotalDetects: 0.3083 
+
+ GT ObjectID: 5  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 6  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 7  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 8  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 9  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 18  
+ MaxDetectionRatio: 0.4987  RatioTotalDetects: 0.8912 
+
+ GT ObjectID: 10  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 11  
+ MaxDetectionRatio: 0.9459  RatioTotalDetects: 0.9459 
+
+ GT ObjectID: 12  
+ MaxDetectionRatio: 0.9531  RatioTotalDetects: 0.9531 
+
+ GT ObjectID: 14  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 15  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 16  
+ MaxDetectionRatio: 0.3099  RatioTotalDetects: 0.4737 
+
+ GT ObjectID: 17  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 19  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 20  
+ MaxDetectionRatio: 0.9096  RatioTotalDetects: 0.9096 
+
+ GT ObjectID: 21  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ GT ObjectID: 22  
+ MaxDetectionRatio: 0.8750  RatioTotalDetects: 0.8750 
+
+ GT ObjectID: 23  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ OVERALL STATS: ThreshH: 0.80 ThreshL: 0.20 
+SingleSO_Greaterthan_TH: 19  MultipleSO_Greaterthan_TH: 20 MultipleSO_Lesserthan_TL: 0
+
+ --- MISC SO Statistics----
+
+
+
+ SO ObjectID: 0  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 1  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 2  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 3  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 18  
+ MaxDetectionRatio: 0.9972  RatioTotalDetects: 0.9972 
+
+ SO ObjectID: 4  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 5  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 6  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 7  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 8  
+ MaxDetectionRatio: 0.9884  RatioTotalDetects: 0.9884 
+
+ SO ObjectID: 9  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 10  
+ MaxDetectionRatio: 0.9130  RatioTotalDetects: 0.9130 
+
+ SO ObjectID: 11  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 12  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 17  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 14  
+ MaxDetectionRatio: 0.9633  RatioTotalDetects: 0.9633 
+
+ SO ObjectID: 15  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 13  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 16  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 19  
+ MaxDetectionRatio: 0.9949  RatioTotalDetects: 0.9949 
+
+ SO ObjectID: 20  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 21  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 23  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 22  
+ MaxDetectionRatio: 1.0000  RatioTotalDetects: 1.0000 
+
+ SO ObjectID: 24  
+ MaxDetectionRatio: 0.9592  RatioTotalDetects: 0.9592 
+
+ OVERALL STATS: ThreshH: 0.80 ThreshL: 0.20 
+SingleGT_Greaterthan_TH: 25  MultipleGT_Greaterthan_TH: 25 MultipleGT_Lesserthan_TL: 0
+
+
+
+Detection Recall	Precision	No.GT	SO	MT	PT	ML	Frag	IDS
+        0.943431	0.994231	23	25	20	3	0	2	0	

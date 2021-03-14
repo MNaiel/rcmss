@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Video>
+   <Rcll value="90.3733"/>
+   <Prcn value="91.4513"/>
+   <FAR value="0.43"/>
+   <GT value="6"/>
+   <MT value="5"/>
+   <PT value="1"/>
+   <ML value="0"/>
+   <FP value="43"/>
+   <FN value="49"/>
+   <IDs value="5"/>
+   <FM value="5"/>
+   <MOTA value="80.943"/>
+   <MOTP value="80.2642"/>
+   <MOTAL value="81.7725"/>
+</Video>
