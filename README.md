@@ -13,9 +13,9 @@ The code can be tested on the **Datasets/PETS2009/S2_L1** test sequence [7] by r
     Note: For convienance, a copy from the code dependancies, sample dataset and sample quantitative results are stored under **Dependencies/**, **Datasets/** and **Quantitative Results/** subfolders, respectively.
 -------------------------------------------------------------------------------------------------------
 ## References:
-- [1] M.A. Naiel, M.O. Ahmad, M.N.S. Swamy, J. Lim, and M.-H. Yang, "Online multi-object tracking via robust collaborative model and sample selection", Computer Vision and Image Understanding, Volume 154, 2017, Pages 94-107. 
+- [1] M.A. Naiel, M.O. Ahmad, M.N.S. Swamy, J. Lim, and M.-H. Yang, "Online multi-object tracking via robust collaborative model and sample selection", Computer Vision and Image Understanding, Volume 154, 2017, Pages 94-107. [PDF](https://users.encs.concordia.ca/~rcmss/include/Papers/CVIU2016.pdf)
 - [2] M.A. Naiel, M.O. Ahmad, M.N.S. Swamy, Y. Wu, and M.-H. Yang, "Online multi-person tracking via robust collaborative model", 21st IEEE International Conference on Image Processing (ICIP), Paris, France, pp. 431 – 435, Oct. 2014. 
-- [3] piotr_toolbox_V3.01 "http://vision.ucsd.edu/~pdollar/toolbox/doc/"
+- [3] *piotr_toolbox_V3.01* "http://vision.ucsd.edu/~pdollar/toolbox/doc/"
 - [4] P. Dollár, S. Belongie and P. Perona, "The Fastest Pedestrian Detector in the West", BMVC 2010, Aberystwyth, UK.
 - [5] The PASCAL Visual Object Classes Challenge 2005 Development Kit "http://host.robots.ox.ac.uk/pascal/VOC/voc2005/index.html"
 - [6] W. Zhong, H. Lu, and M.-H. Yang, “Robust object tracking via sparsity-based collaborative model,” In Proc. Comput. Vis. Pattern Recognit., 2012, pp. 1838–1845.
