@@ -1,7 +1,7 @@
 # Online multi-object tracking via robust collaborative model and sample selection (RCMSS)
--------------------------------------------------------------------------------------------------------
-This is a Matlab implementation of the RCMSS algorithm [1].  The code can be tested by using the Matlab file named, MultiObjectTrackingMain.m, and this code is ready to be tested on the PETS2009 S2L1 test sequence [7]. 
--------------------------------------------------------------------------------------------------------
+
+This is a Matlab implementation of the RCMSS algorithm [1].  The code can be tested by using the Matlab file named, **MultiObjectTrackingMain.m**, and this code is ready to be tested on the PETS2009 S2L1 test sequence [7]. 
+
 ## Code dependencies: 
 1) P. Dollár Toolbox in [3]
 2) The pre-trained pedestrian detector of P. Dollár et al. in [4]
