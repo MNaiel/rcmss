@@ -1,9 +1,15 @@
 # Online multi-object tracking via robust collaborative model and sample selection (RCMSS)
 
-This repository includes a Matlab implementation of the RCMSS method in [1]. 
+This repository includes a Matlab implementation of the RCMSS method in [1] [Webpage](https://users.encs.concordia.ca/~rcmss/). 
 
 ## Demo:
 The code can be tested on the **Datasets/PETS2009/S2_L1** test sequence [7] by running the Matlab file named, **Version1.0/MultiObjectTrackingMain.m**. 
+
+## Qualitative Results:
+The following Youtube video includes a sample qualitative results of RCMSS.
+[![Watch RCMSS Demo](http://img.youtube.com/vi/lnAUnU596UE/0.jpg)](http://www.youtube.com/watch?v=lnAUnU596UE "Online Multi-Object Tracking Via Robust Collaborative Model and Sample Selection")
+
+More details are available in paper in [1] and its [Webpage](https://users.encs.concordia.ca/~rcmss/).
 
 ## Code dependencies: 
 1) P. Dollár Toolbox in [3]
