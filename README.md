@@ -17,6 +17,30 @@ More details are available in paper in [1] and its [Webpage](https://users.encs.
 3) The development kit of the PASCAL Visual Object Classes Challenge 2005 [5]
 4) The code of sparsity-based tracker presented in [6]
     Note: For convienance, a copy from the code dependancies, sample dataset and sample quantitative results are stored under **Dependencies/**, **Datasets/** and **Quantitative Results/** subfolders, respectively.
+
+## Citations:
+
+````
+@article{naiel2017RCMSS,
+  title={Online multi-object tracking via robust collaborative model and sample selection},
+  author={Naiel, Mohamed A and Ahmad, M Omair and Swamy, MNS and Lim, Jongwoo and Yang, Ming-Hsuan},
+  journal={Computer Vision and Image Understanding},
+  volume={154},
+  pages={94--107},
+  year={2017},
+  publisher={Elsevier}
+}
+````
+````
+@inproceedings{naiel2014online,
+  title={Online multi-person tracking via robust collaborative model},
+  author={Naiel, Mohamed A and Ahmad, M Omair and Swamy, MNS and Wu, Yi and Yang, Ming-Hsuan},
+  booktitle={2014 IEEE International Conference on Image Processing (ICIP)},
+  pages={431--435},
+  year={2014},
+  organization={IEEE}
+}
+````
 -------------------------------------------------------------------------------------------------------
 ## References:
 - [1] M.A. Naiel, M.O. Ahmad, M.N.S. Swamy, J. Lim, and M.-H. Yang, "Online multi-object tracking via robust collaborative model and sample selection", Computer Vision and Image Understanding, Volume 154, 2017, Pages 94-107. [PDF](https://users.encs.concordia.ca/~rcmss/include/Papers/CVIU2016.pdf)
