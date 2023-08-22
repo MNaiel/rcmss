@@ -2,6 +2,11 @@
 
 This repository includes a Matlab implementation of the RCMSS method in [1] [Webpage](https://users.encs.concordia.ca/~rcmss/). 
 
+## Abstract:
+The past decade has witnessed significant progress in object detection and tracking in videos. In this paper, we present a collaborative model between a pre-trained object detector and a number of single-object online trackers within the particle filtering framework. For each frame, we construct an association between detections and trackers, and treat each detected image region as a key sample, for online update, if it is associated to a tracker. We present a motion model that incorporates the associated detections with object dynamics. Furthermore, we propose an effective sample selection scheme to update the appearance model of each tracker. We use discriminative and generative appearance models for the likelihood function and data association, respectively. Experimental results show that the proposed scheme generally outperforms state-of-the-art methods.
+
+Keywords: Multi-object tracking, particle filter, collaborative model, sample selection, sparse representation
+
 ## Demo:
 The code can be tested on the **Datasets/PETS2009/S2_L1** test sequence [7] by running the Matlab file named, **Version1.0/MultiObjectTrackingMain.m**. 
 
@@ -9,7 +14,7 @@ The code can be tested on the **Datasets/PETS2009/S2_L1** test sequence [7] by r
 The following Youtube video includes a sample qualitative results of RCMSS.
 [![Watch RCMSS Demo](http://img.youtube.com/vi/lnAUnU596UE/0.jpg)](http://www.youtube.com/watch?v=lnAUnU596UE "Online Multi-Object Tracking Via Robust Collaborative Model and Sample Selection")
 
-More details are available in paper in [1] and its [Webpage](https://users.encs.concordia.ca/~rcmss/).
+More details are available in the paper in [1] and its [Webpage](https://users.encs.concordia.ca/~rcmss/).
 
 ## Code dependencies: 
 1) P. Dollár Toolbox in [3]
